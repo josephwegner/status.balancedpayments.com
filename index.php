@@ -19,13 +19,12 @@
     }
 
     date_default_timezone_set('America/Chicago');
-    $date = date("F jS, Y \a\t g:i A", strtotime($status->time));
+    $date = date("F jS, Y \a\\t g:i A", strtotime($status->time));
 ?>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Balanced</title>
-    <link rel="shortcut icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAAStJREFUWIXtlT1SwzAQRp+YHMAeGsrcIGlc4yukpDHODaBLF6dzB5yAkIYyOYJSu/INUtIw9g1MgZhhZJlITogbfZ12Pu2+0c+uaJqGIXU1aHUP4AGAkR4QQlDF0Rh4BWKgBl5CWWQuiRebyROQAgEggXmelAf913WdwFYVRyVYVnGUOhRPgQe1F5Vra/K2AKo4CoCpwXtvC9DhnS42k/FRgD9Un+rNk/JwFCCURc33nel6cwAweXcmY9cJzICVApHALJSFMYFJeVLuVI6f/c/A3OQV+qsUQtjW6SXbX3AxeQAP4AFa09BWH+/XGXCrlvubu8+sT55ejUgVX2rhlQ3EuRqRadq5TMuTAQLL2L8BmAaT9bA6B8AjsP61XquYs1qP8NIavA94AA/wBRJiTbdsTuB4AAAAAElFTkSuQmCC" type="image/x-icon">
+    <title>Cultivate Studios Status</title>
     <link href='https://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="styles40et" href="/static/css/bootstrap-2.0.css">
     <link rel="stylesheet" href="/static/css/base.css">
